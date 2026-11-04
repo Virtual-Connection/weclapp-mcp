@@ -1,0 +1,18 @@
+{
+    "require": {
+        "mcp/sdk": "^0.9.0",
+        "guzzlehttp/guzzle": "^8.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^5.3",
+        "phpstan/phpstan": "^2.3",
+        "laravel/pint": "^1.32",
+        "rector/rector": "^2.8"
+    }
+}
