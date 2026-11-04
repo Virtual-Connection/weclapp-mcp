@@ -1,0 +1,1 @@
+MCP-Server für die weclapp-API in reinem PHP 8.4
