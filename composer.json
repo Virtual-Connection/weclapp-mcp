@@ -28,5 +28,12 @@
         "psr-4": {
             "WeclappMcp\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "lint": "pint --test",
+        "rector": "rector process --dry-run",
+        "stan": "phpstan analyse",
+        "test": "pest",
+        "check" : ["@lint", "@rector", "@stan", "@test"]
     }
 }
